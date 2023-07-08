@@ -1,0 +1,10 @@
+[package]
+name = "chinese-number-uppercase"
+description = "Convert Arabic figures to Chinese uppercase number"
+version = "0.1.0"
+edition = "2021"
+keywords = ["chinese", "case"]
+license = "MIT OR Apache-2.0"
+rust-version = "1.60"
+
+[dependencies]
