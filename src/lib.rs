@@ -2,6 +2,7 @@ const SYMBOL_TABLE: [char; 10] = ['零', '壹', '贰', '叁', '肆', '伍', '陆
 const UNIT_TABLE: [char; 4] = ['\0', '拾', '佰', '仟'];
 const STEP_UNIT_TABLE: [char; 5] = ['\0', '万', '亿', '兆', '京'];
 
+/// Convert u64 number to Chinese uppercase string
 pub fn to_uppercase(number: u64) -> String {
     if number < 10 {
         return SYMBOL_TABLE[number as usize].to_string();
