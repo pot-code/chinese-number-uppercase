@@ -6,5 +6,6 @@ edition = "2021"
 keywords = ["chinese", "case"]
 license = "MIT OR Apache-2.0"
 rust-version = "1.60"
+repository = "https://github.com/pot-code/chinese-number-uppercase"
 
 [dependencies]
